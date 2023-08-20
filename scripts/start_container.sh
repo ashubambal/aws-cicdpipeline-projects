@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Pulling the docker container from DockerHub 12
+# Pulling the docker container from DockerHub
 docker pull softconsist/django-notes-app:latest
 
 # Run the docker image as a container
