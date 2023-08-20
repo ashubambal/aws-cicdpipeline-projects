@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Get IDs of all running containers 
+# Get IDs of all running containers  
 container_ids=$(docker ps -q)
 
 # Loop through each container ID and remove it
