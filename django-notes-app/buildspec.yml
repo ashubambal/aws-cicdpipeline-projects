@@ -10,7 +10,7 @@ phases:
       python: 3.11
   pre_build:
     commands:
-     - pip install -r requirements.txt
+     - pip install -r django-notes-app/requirements.txt
   build:
     commands:
       - cd django-notes-app/
