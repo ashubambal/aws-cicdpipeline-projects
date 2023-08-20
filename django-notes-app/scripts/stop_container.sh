@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Killing old container yes
+# Killing old container
 
 containerid=$(docker ps -q) 
 docker rm -f $containerid
