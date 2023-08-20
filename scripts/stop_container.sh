@@ -1,6 +1,9 @@
 #!/bin/bash
 
-# Killing old container
+# Get IDs of all running containers
+container_ids=$(docker ps -q)
 
-containerid=$(docker ps -q) 
-docker rm -f $containerid
+# Loop through each container ID and remove it
+for container_id in $container_ids; do
+    docker rm -f $container_id
+done
